@@ -1,8 +1,12 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Garamond, serif ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
 }
 
 html,
@@ -35,6 +39,7 @@ nav h1{
     font-size: 50px;
     display: flex;
     align-items: center;
+    font-family: Garamond, serif;
 }
 nav h4{
     font-size: 20px;
@@ -49,22 +54,49 @@ nav button{
 }
 
 #center{
-    padding: 50px;
+    padding: 70px 60px;
     height: 80%;
     width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 #center-part1{
    
     height: 100%;
-    width: 50%;
+    width: 42%;
+}
+
+#center-part1 h1{
+    line-height: 70px;
+    font-size: 50px;
+    font-family: japan;
+   
+}
+#center-part1 p{
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+#center-part1 button{
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 20px;
+    font-size: 15;
+    font-weight: 500;
+    border: none;
 }
 #center-part2{
-    
     height: 100%;
-    width: 50%;
+    width: 48%;
+    position: relative;
 }
-#center-part1 h1{
-    font-size: 80px;
-    background-color: aqua;
+#center-part2 img{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
 }
