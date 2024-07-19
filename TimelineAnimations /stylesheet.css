@@ -2,11 +2,12 @@
     font-family: japan;
     src: url(./3856NeueMachina.woff2);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 html,
@@ -14,38 +15,45 @@ body {
     height: 100%;
     width: 100%;
 }
-section{
+
+#section1 {
     height: 100%;
     width: 100%;
     position: relative;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 50px;
-    
+
 }
-#part2{
+
+#part2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
 }
-nav i{
+
+nav i {
     font-size: 45px;
 }
-nav h1{
+
+nav h1 {
     font-size: 50px;
     display: flex;
     align-items: center;
     font-family: Garamond, serif;
 }
-nav h4{
+
+nav h4 {
     font-size: 20px;
     font-weight: 400;
 }
-nav button{
+
+nav button {
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 10px;
@@ -53,32 +61,35 @@ nav button{
     border: 1px solid #000;
 }
 
-#center{
+#center {
     padding: 70px 60px;
     height: 80%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-#center-part1{
-   
+
+#center-part1 {
+
     height: 100%;
     width: 42%;
 }
 
-#center-part1 h1{
+#center-part1 h1 {
     line-height: 70px;
     font-size: 50px;
     font-family: japan;
-   
+
 }
-#center-part1 p{
+
+#center-part1 p {
     margin-top: 15px;
     line-height: 2;
     font-size: 18px;
     margin-bottom: 25px;
 }
-#center-part1 button{
+
+#center-part1 button {
     background-color: #000;
     color: white;
     border-radius: 10px;
@@ -87,27 +98,40 @@ nav button{
     font-weight: 500;
     border: none;
 }
-#center-part2{
+
+#center-part2 {
     height: 100%;
     width: 48%;
     position: relative;
 }
-#center-part2 img{
+
+#center-part2 img {
     position: absolute;
     right: 0;
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    
+
 }
-#section1bottom{
+
+#section1bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 120px;
 }
-#section1bottom img{
+
+#section1bottom img {
     height: 35px;
 }
 
-#section2 
+.section2 .services{
+background-color: red;
+padding: 40px 120px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+#services h3{
+    
+}
