@@ -47,3 +47,20 @@ nav button{
     font-weight: 600;
     border: 1px solid #000;
 }
+
+#center{
+    background-color: red;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+#center-part1{
+   
+    height: 100%;
+    width: 50%;
+}
+#center-part2{
+    
+    height: 100%;
+    width: 50%;
+}
