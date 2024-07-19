@@ -100,3 +100,12 @@ nav button{
     border-radius: 20px;
     
 }
+#section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+#section1bottom img{
+    height: 35px;
+}
