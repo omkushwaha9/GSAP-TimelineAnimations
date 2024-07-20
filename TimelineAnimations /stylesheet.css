@@ -125,15 +125,16 @@ nav button {
     height: 35px;
 }
 
-.section2 .services{
-padding: 40px 120px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
-gap: 15px;
-margin-top: 30px;
+.section2 .services {
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 30px;
 }
-.services h3{
+
+.services h3 {
     background-color: lightgrey;
     font-weight: 600;
     font-family: japan;
@@ -141,12 +142,14 @@ margin-top: 30px;
     border-radius: 10px;
     font-size: 30px;
 }
-.services p{
+
+.services p {
     width: 40%;
     font-size: 15px;
     font-weight: 500;
 }
-.container{
+
+.container {
     height: 86%;
     width: 100%;
     padding: 40px 120px;
@@ -154,7 +157,8 @@ margin-top: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.elem{
+
+.elem {
     flex-shrink: 0;
     height: 250px;
     width: 48%;
@@ -164,7 +168,8 @@ margin-top: 30px;
     box-shadow: 0px 15px 0px black;
     display: flex;
 }
-.elem-part1{
+
+.elem-part1 {
     height: 100%;
     width: 50%;
     display: flex;
@@ -172,16 +177,19 @@ margin-top: 30px;
     justify-content: space-between;
     flex-direction: column;
 }
-.elem-part2{
+
+.elem-part2 {
     height: 100%;
     width: 50%;
 
 }
-.elem-part2 img{
+
+.elem-part2 img {
     height: 100%;
     border-radius: 20px;
 }
-.elem-part1 h2{
+
+.elem-part1 h2 {
     font-size: 20px;
     font-weight: 500;
     width: 60%;
@@ -190,31 +198,37 @@ margin-top: 30px;
     font-family: japan;
     background-color: lightgray;
 }
-.elem-part1 h4{
+
+.elem-part1 h4 {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: 500;
     gap: 20px;
 }
-.elem-part1 h4 i{
+
+.elem-part1 h4 i {
     padding: 10px;
     background-color: black;
     color: white;
     font-weight: 900;
     border-radius: 50%;
 }
+
 /* Black boxes inside Elements */
 .black {
     background-color: black;
 }
-.black .elem-part1 h4{
+
+.black .elem-part1 h4 {
     color: #fff;
 }
-.black .elem-part1 h4 i{
+
+.black .elem-part1 h4 i {
     color: black;
     background-color: white;
 }
-.black .elem-part2 h2{
+
+.black .elem-part2 h2 {
     background-color: white;
 }
