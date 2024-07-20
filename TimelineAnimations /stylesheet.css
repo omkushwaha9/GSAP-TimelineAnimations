@@ -124,6 +124,7 @@ nav button {
 #section1bottom img {
     height: 35px;
 }
+
 /* Slide 2 starting */
 .section2 .services {
     padding: 40px 120px;
@@ -165,7 +166,7 @@ nav button {
     border: 3px solid black;
     border-radius: 20px;
     padding: 35px;
-  /*  box-shadow: 0px 15px 0px black; */
+    /*  box-shadow: 0px 15px 0px black; */
     box-shadow: 10px 10px 20px grey;
     display: flex;
 }
@@ -222,8 +223,13 @@ nav button {
     background-color: black;
 }
 
+.black .elem {
+    border: 3px solid white;
+}
+
 .black .elem-part1 h4 {
     color: #fff;
+
 }
 
 .black .elem-part1 h4 i {
