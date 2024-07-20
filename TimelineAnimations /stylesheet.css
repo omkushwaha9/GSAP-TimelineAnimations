@@ -208,4 +208,13 @@ margin-top: 30px;
 .black {
     background-color: black;
 }
-.line2
+.black .elem-part1 h4{
+    color: #fff;
+}
+.black .elem-part1 h4 i{
+    color: black;
+    background-color: white;
+}
+.black .elem-part2 h2{
+    background-color: white;
+}
