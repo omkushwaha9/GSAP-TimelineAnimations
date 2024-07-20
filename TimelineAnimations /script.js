@@ -35,6 +35,7 @@ function page1Animation() {
 
 }
 page1Animation()
+// SLIDE 2
 var tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: ".section2",
