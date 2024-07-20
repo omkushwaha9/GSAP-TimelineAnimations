@@ -48,4 +48,25 @@ var tl2 = gsap.timeline({
 tl2.from(".services",{
     y:30,
     opacity:0,
+    duration:0.5
 })
+tl2.from(".elem.line1.left",{
+    x:-300,
+    opacity:0,
+    duration:1,
+},"anim1")
+tl2.from(".elem.line1.right",{
+    x:300,
+    opacity:0,
+    duration:1,
+},"anim1")
+tl2.from(".elem.line2.left",{
+    x:-300,
+    opacity:0,
+    duration:1,
+},"anim2")
+tl2.from(".elem.line2.right",{
+    x:300,
+    opacity:0,
+    duration:1,
+},"anim2")
